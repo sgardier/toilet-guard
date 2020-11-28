@@ -8,10 +8,10 @@ A simple web application to discover web development
 
 Install the project in your website directory, create your DB with the file ./db.sql, edit ./inc/config.inc.php with your own informations
 
-# Try it !
+# Try it
 * Try the app here : [WebHost App](https://bit.ly/2GQqgfG) (Login : Simon, Password : 1234)
 
-# Limitations :
+# Limitations
 * Not that much functionnality for now
 * Password's aren't hashed
 * Security isn't done
