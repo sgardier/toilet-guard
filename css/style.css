@@ -1,0 +1,60 @@
+/*
+  Just some personnal CSS rules, nothing special
+ */
+#top_nav, #footer{
+  background: rgb(75, 123, 194);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(75, 123, 194, 1) 0%,
+    rgba(43, 79, 133, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(75, 123, 194, 1) 0%,
+    rgba(43, 79, 133, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(75, 123, 194, 1) 0%,
+    rgba(43, 79, 133, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b7bc2",endColorstr="#2b4f85",GradientType=1); 
+}
+.navbar-toggler{
+    border:none!important;
+}
+#poop{
+  border:none;
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  background-image: url('../flush.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  box-shadow:  12px 12px 30px #c8d1d6, 
+              -12px -12px 30px #eaf5fc;
+  transition:box-shadow 0.2s;            
+}
+#poop:hover{
+  box-shadow:  0px 0px 0px #c8d1d6, 
+               0px 0px 0px #eaf5fc;
+}
+main{
+  min-height: 100vh;
+}
+#logs{
+  overflow-x: scroll!important;
+}
+.overflow-custom{
+  overflow: scroll;
+}
+.custom-alert{
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  z-index:50;
+  margin-bottom:0;
+}
+@media screen and (max-width: 768px), handheld{
+
+}
